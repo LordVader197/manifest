@@ -1,14 +1,4 @@
-# ParanoidAndroid #
-
-## Working on translations ##
-
-We're using [Crowdin](https://crowdin.net/project/aospa-framework) to accept translations so you
-should join it if you are interested in working on translating a part of the project.
-
-## Grabbing the source ##
-
-[Repo](http://source.android.com/source/developing.html) is a tool provided by Google that
-simplifies using [Git](http://git-scm.com/book) in the context of the Android source.
+.
 
 ### Installing Repo ###
 
@@ -34,7 +24,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA-legacy/manifest -b lollipop
+$ repo init -u https://github.com/LordVader197/manifest
 ```
 
 ### Downloading the source tree ###
@@ -45,7 +35,7 @@ and their change histories.
 
 ```bash
 # Let Repo take care of all the hard work
-$ repo sync
+$ repo sync -j4
 ```
 
 #### Syncing specific projects ####
